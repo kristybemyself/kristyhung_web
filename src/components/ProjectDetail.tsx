@@ -183,7 +183,7 @@ export const ProjectDetail = () => {
                         <video
                           src={media.url}
                           controls
-                          className={`w-full h-full object-cover brightness-125 contrast-110 ${project.id === 'arduino-synth' ? 'brightness-[1.1]' : ''}`}
+                          className={`w-full h-full object-cover brightness-125 contrast-110 ${project.id === 'arduino-synth' && media.url !== '/videos/Cardmic_promotionvideo_demo.mp4' ? 'brightness-[1.1]' : ''}`}
                         />
                       )}
                     </div>
