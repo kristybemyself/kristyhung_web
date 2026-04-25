@@ -203,8 +203,8 @@ const Home = () => {
         <div className="grid grid-cols-1 gap-12">
           {[
             { year: "2026", title: "Transit", venue: "Hong Kong X Japan, Nagoya" },
-            { year: "2025", title: "Hangang Bridge Bombing", venue: "Hong Kong" },
-            { year: "2023", title: "Meshby", venue: "Hong Kong" }
+            { year: "2025", title: "Meaningful Play", venue: "Hong Kong" },
+            { year: "2023", title: "Colours", venue: "Hong Kong" }
           ].map((exhibit, i) => (
             <div 
               key={i} 
