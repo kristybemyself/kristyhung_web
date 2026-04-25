@@ -63,7 +63,8 @@ export const PROJECTS: Project[] = [
       { type: 'image', url: '/images/meshby1.png' },
       { type: 'image', url: '/images/mushby2.png' },
       { type: 'video', url: '/videos/mushroom_card.mp4' },
-      { type: 'video', url: '/videos/mushroom_prototype2.mp4' }
+      { type: 'video', url: '/videos/mushroom_prototype2.mp4' },
+      { type: 'video', url: '/videos/Cardmic_promotionvideo_demo.mp4' }
     ],
     challenge: [
       "Stimulated by the AI bubble, AI-generated “fast-food” art has rapidly proliferated, severely damaging the value and returns of high-quality digital art content creators and reducing their willingness to remain in the art industry.",

@@ -65,7 +65,7 @@ export const ProjectDetail = () => {
               src={project.image}
               alt={project.title}
               referrerPolicy="no-referrer"
-              className={`w-full h-full object-cover brightness-105 contrast-105 ${project.id === 'arduino-synth' ? 'brightness-[.7]' : ''}`}
+              className={`w-full h-full object-cover brightness-105 contrast-105 ${project.id === 'arduino-synth' ? 'brightness-[1.1]' : ''}`}
             />
           </div>
 
@@ -177,13 +177,13 @@ export const ProjectDetail = () => {
                         <img
                           src={media.url}
                           alt={`Gallery ${i + 1}`}
-                          className={`w-full h-full object-cover brightness-125 contrast-110 hover:scale-105 transition-transform duration-700 ${project.id === 'arduino-synth' ? 'brightness-[.7]' : ''}`}
+                          className={`w-full h-full object-cover brightness-125 contrast-110 hover:scale-105 transition-transform duration-700 ${project.id === 'arduino-synth' ? 'brightness-[1.1]' : ''}`}
                         />
                       ) : (
                         <video
                           src={media.url}
                           controls
-                          className={`w-full h-full object-cover brightness-125 contrast-110 ${project.id === 'arduino-synth' ? 'brightness-[.7]' : ''}`}
+                          className={`w-full h-full object-cover brightness-125 contrast-110 ${project.id === 'arduino-synth' ? 'brightness-[1.1]' : ''}`}
                         />
                       )}
                     </div>
